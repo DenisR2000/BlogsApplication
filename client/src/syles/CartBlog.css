@@ -1,0 +1,24 @@
+.text__header{
+    box-sizing: border-box;
+    color: rgb(41, 41, 41);
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    
+}
+.page__item:hover{
+    background-color: rgb(224, 224, 246);
+    cursor: pointer;
+}
+
+p.clip {
+    white-space:pre; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.imgOpen{
+    transition: all 1s ease 0s;
+    width: 800px;
+    height: 560px;
+}

@@ -1,0 +1,68 @@
+.hero-eyebrow{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Soehne web dreiviertelfett', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+}
+.header-1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+
+.text__fonts{
+    box-sizing: border-box;
+    color: rgb(8, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.paragraph{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+
+.button__start__white {
+    transition: all 0.2s ease 0s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 21px;
+    background-color: #fff;
+    color: #000;
+    height: 36px;
+    width: 180px;
+    margin-left: 30px;
+    text-decoration-thickness: initial;
+    font-size: 22px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .button__start__white:hover {
+    transition: all 0.2s ease 0s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: hsla(0, 0%, 100%, 0);
+    color: #fff;
+  }

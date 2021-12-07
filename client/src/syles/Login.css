@@ -1,0 +1,217 @@
+.popup {
+    position: absolute;
+    z-index: 3;
+    content: '';
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.popup2 {
+    position: absolute;
+    z-index: 3;
+    content: '';
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.popup_2__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+.popup__body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+.popup_2__content.animate {
+    transition: all 0.8s ease 0s;
+    opacity: 1;
+    transform: perspective(600px) translate(0px, 0px) rotateX(0deg)
+}
+
+.popup__content.animate {
+    transition: all 0.8s ease 0s;
+    opacity: 1;
+    transform: perspective(600px) translate(0px, 0px) rotateX(0deg)
+}
+.popup_2__content {
+    overflow:hidden;
+    background-color: white;
+    color: black;
+    max-width: 900px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: perspective(600px) translate(0px, -100px) rotateX(45deg)
+}
+.popup__content {
+    overflow:hidden;
+    background-color: white;
+    color: black;
+    max-width: 900px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: perspective(600px) translate(0px, -100px) rotateX(45deg)
+}
+.popup_2__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.popup__close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup_2__text {
+    color: black;
+    font-size: 30px;
+}
+
+.popup__text{
+    color: black;
+    font-size: 30px;
+}
+
+.popup_table {
+    box-sizing: border-box;
+    color: rgb(8, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.popup_2_table {
+    box-sizing: border-box;
+    color: rgb(8, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text__fonts_title{
+    font-size: 28px;
+    box-sizing: border-box;
+    color: rgb(8, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text__fonts{
+    box-sizing: border-box;
+    color: rgb(8, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid cornflowerblue;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: cornflowerblue transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+*{
+    border: none;
+}
+
+
+.popup_400 {
+    position: absolute;
+    z-index: 3;
+    content: '';
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+
+.popup__body_400{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+.popup__content_400.animate {
+    transition: all 0.8s ease 0s;
+    opacity: 1;
+    transform: perspective(600px) translate(0px, 0px) rotateX(0deg)
+}
+
+.popup__content_400 {
+    overflow:hidden;
+    background-color: white;
+    color: black;
+    max-width: 900px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: perspective(600px) translate(0px, -100px) rotateX(45deg)
+}

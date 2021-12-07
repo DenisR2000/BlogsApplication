@@ -1,0 +1,23 @@
+.card-img-top {
+    width: 710px;
+    z-index: 10;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.card-img-top:hover{
+    width: 750px;
+    z-index: 10;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.wi{
+    widows: 68%;
+}

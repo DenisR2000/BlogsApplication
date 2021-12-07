@@ -1,0 +1,7 @@
+.cart__user:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+a .userRef{
+    color: black;
+}
