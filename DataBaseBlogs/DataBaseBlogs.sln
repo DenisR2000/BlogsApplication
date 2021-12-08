@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseBlogs", "DataBaseBlogs\DataBaseBlogs.csproj", "{DCB52D92-4511-4D3A-A4DE-2F436069CBA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCB52D92-4511-4D3A-A4DE-2F436069CBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB52D92-4511-4D3A-A4DE-2F436069CBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB52D92-4511-4D3A-A4DE-2F436069CBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB52D92-4511-4D3A-A4DE-2F436069CBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFA2F4D1-4498-44DA-9AEF-8DE4EF48AE82}
+	EndGlobalSection
+EndGlobal

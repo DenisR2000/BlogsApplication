@@ -1,0 +1,39 @@
+﻿@model DataBaseBlogs.Models.ViewModel.RegisterViewModel
+
+<div>
+    <h1>Register view model</h1>
+</div>
+
+<form asp-action="Register" asp-controller="Account" asp-antiforgery="true">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <div>
+            @Html.LabelFor(x => x.UserName)
+            @Html.TextBoxFor(x => x.UserName)
+            @Html.ValidationMessageFor(x => x.UserName)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.Email)
+            @Html.TextBoxFor(x => x.Email)
+            @Html.ValidationMessageFor(x => x.Email)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.PhoneNumber)
+            @Html.TextBoxFor(x => x.PhoneNumber)
+            @Html.ValidationMessageFor(x => x.PhoneNumber)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.Password)
+            <input asp-for="Password" value="superTOLIK$%1234diorstirm98&&5g" />
+            @Html.ValidationMessageFor(x => x.Password)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.ConfirmPassword)
+            <input asp-for="ConfirmPassword" value="superTOLIK$%1234diorstirm98&&5g" />
+            @Html.ValidationMessageFor(x => x.ConfirmPassword)
+        </div>
+        <div>
+            <input type="submit" value="Login" class="btn btn-primary" />
+        </div>
+    </div>
+</form>

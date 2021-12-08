@@ -1,0 +1,16 @@
+﻿@model IEnumerable<DataBaseBlogs.Models.Blog>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <a asp-action="Users" asp-controller="Admin" class="btn btn-danger">Admin</a>
+    <h1 class="display-4">Welcome @User.Identity.Name</h1>
+             
+    @foreach(var blg in Model)
+    {
+        <h3>@blg?.Title</h3>
+    }
+           
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
